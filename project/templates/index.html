@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Random Art Generator">
+    <meta name="author" content="Matt">
+    <title>Kickass Art App</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+  <body>
+    <div id = 'wrapper'>
+    <div id = 'output'>
+    Paint me a motherfuckin' {{nouns[0]}}, with a bitchin' {{nouns[1]}}, and a kickass {{nouns[2]}}.
+    </div>
+    <a id="generate" href=".">That idea sucks. Gimme another</a>
+    </div>
+  </body>
+</html>
