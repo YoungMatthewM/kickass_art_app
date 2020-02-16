@@ -10,4 +10,4 @@ Inspired by the WTF engine javascript projects
 and a desire to learn some Flask and Google
 App Engine.  Noun list aggregated from several
 online Pictionary style lists to ensure 
-paintability. 
+paintability.
